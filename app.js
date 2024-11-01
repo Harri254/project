@@ -9,9 +9,9 @@ hamburgerMenu.addEventListener("click", (e) => {
   menuContent.classList.toggle("active"); // Toggle menu visibility
   
   if (menuContent.classList.contains("active")) {
-    menu.src = "/images/icons8-close-window-50.png";
+    menu.src = "./icons8-close-window-50.png";
   } else {
-    menu.src = "/images/align-justify-svgrepo-com.svg";
+    menu.src = "./align-justify-svgrepo-com.svg";
   }
   // console.log("Menu clicked. Active status:", menuContent.classList.contains("active"));
 });
@@ -20,7 +20,7 @@ hamburgerMenu.addEventListener("click", (e) => {
 window.addEventListener("click", (e) => {
   if (!hamburgerMenu.contains(e.target) && !menuContent.contains(e.target) && menuContent.classList.contains("active")) {
     menuContent.classList.remove("active");
-    menu.src = "/images/align-justify-svgrepo-com.svg";
+    menu.src = "./align-justify-svgrepo-com.svg";
     // console.log("Clicked outside. Menu closed.");
   }
 });
