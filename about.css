@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-size: 18px;
+    color:#1b3641;
+}
+.main-heading{
+    text-align: center;
+    color: #f08c3e;
+    font-size: 32px;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+    margin-right: auto;
+    /* background-color: rgb(239, 239, 181); */
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+}
+.web-heading{
+    margin: auto;
+}
+.web-heading>h1{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 70px;
+}
+.harmburger-menu{
+    /* background-color: rgb(161, 161, 99); */
+    display: grid;
+    place-items: center;
+    width: 60px;
+    height: 70px;
+    max-width: 50px;
+    margin-top:2px;
+    margin-left: auto;
+}
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 150px;
+    margin-left: auto;
+    margin-right: 10px;
+    height: 120px;
+    background-color: #f08c3e;
+    animation: fadeIn 0.5s ease;
+    position: fixed;
+    right: -8px;
+    top: 60px;
+    display: none;
+}
+.menu-content p{
+    align-self: flex-start;
+    height: 30px;
+    width: 95%;
+    padding-left: 5%;
+    line-height: 30px;
+    transition:transform 0.3s ease;  
+    transform: translateX(10px);
+}
+.menu-content p:hover{
+    background-color: #1b3641;
+    color: #f08c3e;
+    transform: translateX(0);
+}
+.menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.common {
+    position: absolute;
+    width: 90%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #0a0a0a;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+.top-line {
+     top: 8px; 
+}
+.middle-line { 
+    top: 18px; 
+}
+.bottom-line { 
+    top: 28px; 
+}
+.welcoming{
+    margin-top: 20px;
+}
+p,ul,h3{
+    margin: 0;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+.active{
+    display: block;
+}
+a,p>a{
+    text-decoration: none;
+    color: #0a0a0a;
+}

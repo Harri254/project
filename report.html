@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/report/report.css">
+    <title>Report</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/AfyaKiMtandao2.jpg" alt="AfyaKiMtandao logo" id="logo">
+        </div>
+        <div class="web-heading">
+            <h1 class="main-heading">AfyaKiMtandao</h1>
+        </div>
+        <div class="harmburger-menu">
+            <img src="/images/align-justify-svgrepo-com.svg" alt="menu-icon" id="menu-icon">
+            <!-- <img src="images/icons8-close-window-50.png" alt="" id="menu-icon2"> -->
+        </div>
+    </header>
+    <div class="menu-content">
+        <p><a href="/index.html">Home</a></p>
+        <p id="report-btn1"><a href="/report/report.html">Report</a></p>
+        <p><a href="/about/about.html">About</a></p>
+        <p><a href="/testimonies/testimonies.html">Testimonies</a></p>
+    </div>
+    <div class="m-body">
+        <div class="report-as2">
+            <h3>Report as:</h3>
+            <p id="as-a-victim"><a href="#victim-form">As a victim</a></p>
+            <p id="as-a-witness"><a href="#witness-form">As a witness</a></p>
+        </div>
+        <div class="victim-report">
+            <div class="english" id="victim-form">
+                <h2>Report as a Victim</h2>
+                <form action="" method="post" id="victim">
+                    <div id="age-b">
+                        <h3>Age bracket</h3>
+                        <div class="child">
+                            <input type="radio" name="age" id="child">
+                            <label for="child">Below 18 years</label>
+                        </div>
+                        <div class="adult">
+                            <input type="radio" name="age" id="adult">
+                            <label for="adult">18 years and Above</label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h3>Victim's details :</h3>
+                        <div class="names">
+                            <div class="first-name">
+                                <label for="fname">First Name : </label>
+                                <input type="text" name="fname" id="fname" placeholder="First name on your id">
+                            </div>
+                            <div class="middle-name">
+                                <label for="mname">Middle Name : </label>
+                                <input type="text" name="mname" id="mname" placeholder="Middle name on your id">
+                            </div>
+                            <div class="last-name">
+                                <label for="lname">Last Name : </label>
+                                <input type="text" name="lname" id="lname" placeholder="Last name on your id">
+                            </div>
+                        </div>
+                        <div class="id">
+                            <label for="id-number">Id Number :</label>
+                            <input type="number" name="id-number" id="id-number" placeholder="Enter your id number">
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone-number">Phone Number:</label>
+                            <input type="number" name="phone-number" id="phone-number" placeholder="Enter phone number">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email address:</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email (optional)">
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h3>Abuser details :</h3>
+                        <div class="names">
+                            <div class="first-name">
+                                <label for="fname">First Name : </label>
+                                <input type="text" name="fname" id="fname" placeholder="First name on your id">
+                            </div>
+                            <div class="middle-name">
+                                <label for="mname">Middle Name : </label>
+                                <input type="text" name="mname" id="mname" placeholder="Middle name on your id">
+                            </div>
+                            <div class="last-name">
+                                <label for="lname">Last Name : </label>
+                                <input type="text" name="lname" id="lname" placeholder="Last name on your id">
+                            </div>
+                        </div>
+                        <div class="id">
+                            <label for="id-number">Id Number :</label>
+                            <input type="number" name="id-number" id="id-number" placeholder="Enter your id number">
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone-number">Phone Number:</label>
+                            <input type="number" name="phone-number" id="phone-number" placeholder="Enter phone number">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email address:</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email (optional)">
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h3>Area of resident :</h3>
+                        <div class="county">
+                            <label for="county">County: </label>
+                            <select name="county" id="county">
+                                <option value="">Select county</option>
+                            </select>
+                        </div>
+                        <div class="sub-county">
+                            <label for="sub-county">Sub-County :</label>
+                            <select name="sub-county" id="sub-county">
+                                <option value="">Location :</option>
+                            </select>
+                        </div>
+                        <div class="location">
+                            <label for="location">Sub-location :</label>
+                            <select name="location" id="location">
+                                <option value="">Ward</option>
+                            </select>
+                        </div>
+                        <!-- <div class="ward">
+                            <label for="ward">Sub-location (Ward):</label>
+                            <select name="ward" id="ward">
+                                <option value="">Ward</option>
+                            </select>
+                        </div> -->
+                        <div class="village">
+                            <label for="village">Village :</label>
+                            <input type="text" name="village" id="village" placeholder="Area where you live">
+                        </div>
+                    </div>
+                    <div class="abuse-type">
+                        <label for="abuse-type">Type of abuse : </label>
+                        <select name="abuse-type" id="abuse-type">
+                            <option value="">(select appropriately)</option>
+                            <option value="sexual">Sexual abuse</option>
+                            <option value="fight">Physical abuse(fight)</option>
+                            <option value="threats">Threats and language</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <p class="disclaimer">Are you sure you want to submit this report</p>
+                    <div class="consent">
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">Yes. I'm ready to be contacted and the information I have provided is true.</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <hr>
+            </div>
+        </div>
+        <div class="witness-report" id="witness-form">
+            <div class="english">
+                <h2>Report as a Witness</h2>
+            </div>
+            <form action="" id="witness">
+                <div id="Witness">
+                    <h3>Type of Witness</h3>
+                    <div class="neighbour witness-divs">
+                        <input type="radio" name="age" id="neighbour">
+                        <label for="neighbour">Neighbour</label>
+                    </div>
+                    <div class="friend witness-divs">
+                        <input type="radio" name="age" id="friend">
+                        <label for="friend">Friend</label>
+                    </div>
+                    <div class="visitor witness-divs">
+                        <input type="radio" name="age" id="visitor">
+                        <label for="visitor">Visitor/stranger</label>
+                    </div>
+                    <div class="relative witness-divs">
+                        <input type="radio" name="age" id="relative">
+                        <label for="relative">Relative</label>
+                    </div>
+                </div>
+                <div>
+                    <h3>Victim's details :</h3>
+                    <div class="names">
+                        <div class="first-name">
+                            <label for="fname">First Name : </label>
+                            <input type="text" name="fname" id="fname" placeholder="First name on your id">
+                        </div>
+                        <div class="middle-name">
+                            <label for="mname">Middle Name : </label>
+                            <input type="text" name="mname" id="mname" placeholder="Middle name on your id">
+                        </div>
+                        <div class="last-name">
+                            <label for="lname">Last Name : </label>
+                            <input type="text" name="lname" id="lname" placeholder="Last name on your id">
+                        </div>
+                    </div>
+                    <div class="id">
+                        <label for="id-number">Id Number :</label>
+                        <input type="number" name="id-number" id="id-number" placeholder="Enter your id number">
+                    </div>
+                    <div class="phone-number">
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="number" name="phone-number" id="phone-number" placeholder="Enter phone number">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email address:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email (optional)">
+                    </div>
+                </div>
+                <div>
+                    <h3>Abuser details :</h3>
+                    <div class="names">
+                        <div class="first-name">
+                            <label for="fname">First Name : </label>
+                            <input type="text" name="fname" id="fname" placeholder="First name on your id">
+                        </div>
+                        <div class="middle-name">
+                            <label for="mname">Middle Name : </label>
+                            <input type="text" name="mname" id="mname" placeholder="Middle name on your id">
+                        </div>
+                        <div class="last-name">
+                            <label for="lname">Last Name : </label>
+                            <input type="text" name="lname" id="lname" placeholder="Last name on your id">
+                        </div>
+                    </div>
+                    <div class="id">
+                        <label for="id-number">Id Number :</label>
+                        <input type="number" name="id-number" id="id-number" placeholder="Enter your id number">
+                    </div>
+                    <div class="phone-number">
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="number" name="phone-number" id="phone-number" placeholder="Enter phone number">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email address:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email (optional)">
+                    </div>
+                </div>
+                <div>
+                    <h3>Area of resident :</h3>
+                    <div class="county">
+                        <label for="county">County: </label>
+                        <select name="county" id="county">
+                            <option value="">Select county</option>
+                        </select>
+                    </div>
+                    <div class="sub-county">
+                        <label for="sub-county">Sub-County (District):</label>
+                        <select name="sub-county" id="sub-county">
+                            <option value="">Location (Constituency):</option>
+                        </select>
+                    </div>
+                    <div class="location">
+                        <label for="location">Sub-location (Ward):</label>
+                        <select name="location" id="location">
+                            <option value="">Location</option>
+                        </select>
+                    </div>
+                    <!-- <div class="ward">
+                        <label for="ward">Sub-location (Ward):</label>
+                        <select name="ward" id="ward">
+                            <option value="">Ward</option>
+                        </select>
+                    </div> -->
+                    
+                    <div class="village">
+                        <label for="village">Village :</label>
+                        <input type="text" name="village" id="village" placeholder="Area where you live">
+                    </div>
+                </div>
+                <div class="abuse-type">
+                    <label for="abuse-type">Type of abuse : </label>
+                    <select name="abuse-type" id="abuse-type">
+                        <option value="">(select appropriately)</option>
+                        <option value="sexual">Sexual abuse</option>
+                        <option value="fight">Physical abuse(fight)</option>
+                        <option value="threats">Threats and language</option>
+                    </select>
+                </div>
+                <p class="disclaimer">Are you sure you want to submit this report</p>
+                <div class="consent">
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="agree">Yes. I'm ready to be contacted and the information I have provided is true.</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="report.js"></script>
+</body>
+</html>
